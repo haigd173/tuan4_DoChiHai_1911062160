@@ -29,6 +29,8 @@ namespace tuan4_DOCHIHAI.Models
             get { return iSoluong * giaban; }
         }
 
+        public int? ISoluong { get; internal set; }
+
         public GioHang(int id)
         {
             masach = id;
